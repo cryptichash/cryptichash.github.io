@@ -1,6 +1,35 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/go
 {
-	"name": "Hugo",
-	"image": "ghcr.io/peaceiris/hugo:latest-full",
+	"name": "Go",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"VARIANT": "1-bullseye",
+			// Update HUGO_VARIANT to pick hugo variant.
+			// Example variants: hugo, hugo_extended
+			// Rebuild the container if it already exists to update.
+			"HUGO_VARIANT": "hugo_extended",
+			// Update HUGO_VERSION to pick a specific hugo version.
+			// Example versions: latest, 0.73.0, 0,71.1
+			// Rebuild the container if it already exists to update.
+			"HUGO_VERSION": "0.112.4",
+			// Update NODE_VERSION to pick the Node.js version: 12, 14
+			"NODE_VERSION": "18"
+		}
+	},
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	"forwardPorts": [
+		1313
+	],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "go version",
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -19,20 +48,11 @@
 		}
 	},
 
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [
-		1313
-	],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install -D autoprefixer && npm install -D postcss-cli && npm install -D postcss",
-
-	// Set `remoteUser` to `root` to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	//"remoteUser": "root",
-	"remoteUser": "root",
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
 
 	"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,Z",
 	"workspaceFolder": "/workspace",
 	"runArgs": ["--userns=keep-id"],
-	"containerUser": "root"
+	"containerUser": "vscode"
 }
