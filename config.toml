@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Goldydocs"
+title = "Moo"
 
 # Language settings
 contentDir = "content/en"
@@ -60,7 +60,7 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
+title = "Moo2"
 description = "A Docsy example site"
 languageName ="English"
 # Weight used for sorting.
