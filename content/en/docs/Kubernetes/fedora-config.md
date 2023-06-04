@@ -1,9 +1,9 @@
 ---
-title: "Fedora"
+title: "Fedora Config"
 date: 2023-06-03
 weight: 5
 description: >
-  Fedora
+  Fedora Config for Kubernetes
 ---
 
 ## minikube with podman

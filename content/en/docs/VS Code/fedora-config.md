@@ -1,9 +1,9 @@
 ---
-title: "VS Code"
+title: "Fedora Config"
 date: 2023-06-03
 weight: 5
 description: >
-  VS Code
+  Fedora Config for VS Code
 ---
 
 https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions

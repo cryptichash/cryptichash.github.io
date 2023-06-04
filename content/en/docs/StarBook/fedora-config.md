@@ -1,9 +1,9 @@
 ---
-title: "Fedora Tweaks"
+title: "Fedora Config"
 date: 2023-06-02
 weight: 5
 description: >
-  Fedora Tweaks
+  Fedora Config for StarBook
 ---
 
 Enabling "tap-to-click" feature for the touchpad at the gdm login screen for Fedora
