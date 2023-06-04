@@ -1,7 +1,7 @@
 ---
 title: "Docsy"
 linkTitle: "Docsy"
-weight: 3
+weight: 8
 date: 2023-05-29
 description: >
   Using Docsy Theme for Hugo

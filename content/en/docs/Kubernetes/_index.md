@@ -1,13 +1,14 @@
 ---
 title: "Kubernetes"
 linkTitle: "Kubernetes"
-weight: 3
+weight: 2
 date: 2023-06-04
 description: >
   Kubernetes
 ---
 
 ## minikube
+> https://minikube.sigs.k8s.io/docs/
 
 ### Create Cluster
 
