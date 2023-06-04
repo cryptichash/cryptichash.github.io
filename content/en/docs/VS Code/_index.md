@@ -7,4 +7,6 @@ description: >
   VS Code
 ---
 
-todo
+## Working with GitHub in VS Code
+
+<https://code.visualstudio.com/docs/sourcecontrol/github>
