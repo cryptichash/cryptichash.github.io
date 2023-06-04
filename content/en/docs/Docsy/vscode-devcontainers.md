@@ -6,7 +6,7 @@ description: >
   VS Code Dev Containers for Docsy using Podman
 ---
 
-https://opensource.com/article/21/7/vs-code-remote-containers-podman
+<https://opensource.com/article/21/7/vs-code-remote-containers-podman>
 
 ```shell
 code --install-extension ms-vscode-remote.remote-containers

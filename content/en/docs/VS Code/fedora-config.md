@@ -6,8 +6,7 @@ description: >
   Fedora Config for VS Code
 ---
 
-https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
-
+<https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions>
 
 ```shell
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
@@ -19,4 +18,4 @@ dnf check-update
 sudo dnf install code
 ```
 
-https://code.visualstudio.com/docs/sourcecontrol/github
+<https://code.visualstudio.com/docs/sourcecontrol/github>

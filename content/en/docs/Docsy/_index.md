@@ -8,8 +8,8 @@ description: >
 ---
 
 * Docsy
-  * https://www.docsy.dev/
-  * https://github.com/google/docsy
+  * <https://www.docsy.dev/>
+  * <https://github.com/google/docsy>
 * Hugo
-  * https://gohugo.io/
-  * https://github.com/gohugoio/hugo
+  * <https://gohugo.io/>
+  * <https://github.com/gohugoio/hugo>

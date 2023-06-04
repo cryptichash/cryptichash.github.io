@@ -11,7 +11,7 @@ description: >
 * just perfection
 * Caffeine
 
-https://github.com/ventoy/Ventoy/releases - to install!!
+<https://github.com/ventoy/Ventoy/releases> - to install!!
 
 ```shell
 sudo dnf copr enable atim/bottom -y
@@ -32,7 +32,7 @@ sudo dnf install mpv
 
 config?
 
-#justworks
+justworks
 
 ```
 vo=gpu
@@ -46,8 +46,8 @@ sudo dnf install yt-dlp
 
 * apps?
   * Ferdium
-  * Books 
-  * Ulauncher 
+  * Books
+  * Ulauncher
   * Blanket
   * Krita
   * Deja Dup Backups
@@ -58,7 +58,7 @@ sudo dnf install yt-dlp
   * yt-dlp
   * darkman
   * Celluloid
-  * Pika backup 
+  * Pika backup
   * Amberol
   * News flash
   * Foliate

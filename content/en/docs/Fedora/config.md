@@ -21,7 +21,7 @@ sudo dnf upgrade --refresh
 sudo dnf groupupdate core
 ```
 
-https://rpmfusion.org/FAQ
+<https://rpmfusion.org/FAQ>
 
 ```shell
 sudo dnf install rpmfusion-free-release-tainted
@@ -37,9 +37,9 @@ flatpak update
 sudo dnf install 'google-roboto*' 'mozilla-fira*' fira-code-fonts
 ```
 
-https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-playing-movies-and-music/
+<https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-playing-movies-and-music/>
 
-https://rpmfusion.org/Howto/Multimedia
+<https://rpmfusion.org/Howto/Multimedia>
 
 ```shell
 sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
@@ -57,7 +57,7 @@ sudo dnf install lame\* --exclude=lame-devel
 sudo dnf group upgrade --with-optional Multimedia
 ```
 
-https://docs.fedoraproject.org/en-US/quick-docs/openh264/
+<https://docs.fedoraproject.org/en-US/quick-docs/openh264/>
 
 ```shell
 sudo dnf config-manager --set-enabled fedora-cisco-openh264
