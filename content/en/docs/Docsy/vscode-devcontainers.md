@@ -6,7 +6,9 @@ description: >
   VS Code Dev Containers for Docsy
 ---
 
-## Create Dev Containers files in `.devcontainer` folder
+## Create Dev Containers files
+
+> in `.devcontainer` folder
 
 ### `devcontainer.json` file
 
