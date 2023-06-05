@@ -36,7 +36,6 @@ Podman 1.9+ is mostly compatible with Docker's CLI commands and therefore does w
 ```json
 "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,Z",
 "workspaceFolder": "/workspace",
-
 "runArgs": ["--userns=keep-id"],
 "containerUser": "vscode"
 ```

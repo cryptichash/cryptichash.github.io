@@ -6,7 +6,9 @@ description: >
   VS Code Dev Containers for Docsy
 ---
 
-## devcontainer.json file
+## Create Dev Containers files in `.devcontainer` folder
+
+### `devcontainer.json` file
 
 * Go
   * <https://github.com/microsoft/vscode-dev-containers/blob/main/containers/go/.devcontainer/devcontainer.json>
@@ -69,14 +71,14 @@ description: >
 }
 ```
 
-## Dockerfile
+### `Dockerfile`
 
 * Go
   * <https://github.com/microsoft/vscode-dev-containers/blob/main/containers/go/.devcontainer/Dockerfile>
 * Hugo
   * <https://github.com/microsoft/vscode-dev-containers/blob/main/containers/hugo/.devcontainer/Dockerfile>
 
-```docker
+```dockerfile
 # [Choice] Go version (use -bullseye variants on local arm64/Apple Silicon): 1, 1.19, 1.18, 1-bullseye, 1.19-bullseye, 1.18-bullseye, 1-buster, 1.19-buster, 1.18-buster
 ARG VARIANT=1-bullseye
 FROM mcr.microsoft.com/vscode/devcontainers/go:0-${VARIANT}
@@ -122,4 +124,34 @@ EXPOSE 1313
 
 # [Optional] Uncomment this line to install global node packages.
 RUN su vscode -c "source /usr/local/share/nvm/nvm.sh && npm install -g autoprefixer postcss-cli postcss" 2>&1
+```
+
+## Rebuild Container
+
+> Within the Container Shell
+
+```shell
+vscode ➜ /workspace (master) $
+```
+
+### Create `package-lock.json` file
+
+> Commit `package-lock.json`!
+
+```shell
+npm install
+```
+
+### Create Docsy Site
+
+```shell
+hugo
+```
+
+### Test Docsy Site
+
+> <http://localhost:1313/>
+
+```shell
+hugo server
 ```
