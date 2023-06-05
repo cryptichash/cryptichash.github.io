@@ -115,7 +115,7 @@ EXPOSE 1313
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
-https://github.com/microsoft/vscode-dev-containers/blob/main/containers/go/.devcontainer/devcontainer.json
+
 # [Optional] Uncomment the next lines to use go get to install anything else you need
 # USER vscode
 # RUN go get -x <your-dependency-or-tool>
