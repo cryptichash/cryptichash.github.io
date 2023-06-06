@@ -6,6 +6,33 @@ description: >
   GitHub Pages for Docsy
 ---
 
+## Deploy to GitHub Pages
+
+> <https://docs.github.com/en/pages>
+
+### Ensure `package-lock.json` file has been committed
+
+> If not, then create amd commit `package-lock.json`!
+
+```shell
+npm install
+```
+
+### Publishing with a custom GitHub Actions workflow
+
+> - <https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow>
+> - <https://gohugo.io/hosting-and-deployment/hosting-on-github/>
+> - <https://github.com/actions/starter-workflows/blob/main/pages/hugo.yml>
+
+1. On GitHub, navigate to your site's repository.
+2. Under your repository name, click Settings. If you cannot see the "Settings" tab, select the dropdown menu, then click Settings.
+3. In the "Code and automation" section of the sidebar, click Pages.
+4. Under "Build and deployment", under "Source", select GitHub Actions.
+5. GitHub will suggest several starter workflows. Select suggested `Hugo Starter Workflow`, which automatically creates `.github/workflows/hugo.yml`
+6. To see your published site, under Pages, click Visit site.
+
+#### `.github/workflows/hugo.yml`
+
 ```yaml
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
