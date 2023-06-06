@@ -33,6 +33,8 @@ npm install
 
 #### `.github/workflows/hugo.yml`
 
+> <https://github.com/gohugoio/hugo/releases>
+
 ```yaml
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
 name: Deploy Hugo site to Pages
@@ -67,7 +69,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.112.4
+      HUGO_VERSION: 0.113.0
     steps:
       - name: Install Hugo CLI
         run: |
