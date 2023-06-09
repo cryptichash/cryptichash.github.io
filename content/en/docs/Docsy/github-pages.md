@@ -33,7 +33,9 @@ npm install
 
 #### `.github/workflows/hugo.yml`
 
-> <https://github.com/gohugoio/hugo/releases>
+> - <https://github.com/gohugoio/hugo/releases>
+> - <https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners#preinstalled-software>
+> - <https://github.com/actions/runner-images/blob/main/images/linux/Ubuntu2204-Readme.md>
 
 ```yaml
 # Sample workflow for building and deploying a Hugo site to GitHub Pages
