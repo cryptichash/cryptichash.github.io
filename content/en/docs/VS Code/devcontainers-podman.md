@@ -31,11 +31,18 @@ Podman 1.9+ is mostly compatible with Docker's CLI commands and therefore does w
 > - <https://containers.dev/implementors/json_reference/>
 > - <https://code.visualstudio.com/remote/advancedcontainers/change-default-source-mount>
 > - <https://podman-desktop.io/blog/develop-using-devcontainer>
+> - <https://docs.podman.io/en/latest/markdown/podman-run.1.html#volume-v-source-volume-host-dir-container-dir-options>
+> - <https://www.redhat.com/sysadmin/podman-inside-container>
 > - <https://opensource.com/article/21/7/vs-code-remote-containers-podman>
 
 ```json
-"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,Z",
+"workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
 "workspaceFolder": "/workspace",
-"runArgs": ["--userns=keep-id"],
+"runArgs": [
+	// run container as current user
+	"--userns=keep-id",
+	// disable selinux isolation that breaks bind mounts
+	"--security-opt=label=disable"
+],
 "containerUser": "vscode"
 ```
