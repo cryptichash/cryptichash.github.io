@@ -1,7 +1,7 @@
 ---
 title: "GitHub Pages"
 date: 2023-06-02
-weight: 5
+weight: 6
 description: >
   GitHub Pages for Docsy
 ---
