@@ -1,8 +1,8 @@
 ---
 title: "Kubernetes API"
 type: swagger
-weight: 1
-description: Reference for the Kubernetes API - v1.23.17
+weight: 7
+description: Kubernetes Swagger API - v1.23.17
 ---
 
 > <https://github.com/kubernetes/kubernetes/blob/v1.23.17/api/openapi-spec/swagger.json>
