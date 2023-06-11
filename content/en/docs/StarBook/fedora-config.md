@@ -22,3 +22,4 @@ fwupdmgr update
 ```
 
 touchpad drivers?
+content/en/docs/Kubernetes/fedora-config.md

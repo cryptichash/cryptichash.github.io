@@ -3,7 +3,7 @@ title: "Fedora Config"
 date: 2023-06-03
 weight: 5
 description: >
-  Fedora Config for Kubernetes
+  Fedora Config for OpenLens
 ---
 
 ## OpenLens

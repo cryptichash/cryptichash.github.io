@@ -6,11 +6,6 @@ description: >
   Apps
 ---
 
-* gnome tweaks
-* gnome extensions
-* just perfection
-* Caffeine
-
 <https://github.com/ventoy/Ventoy/releases> - to install!!
 
 ```shell
