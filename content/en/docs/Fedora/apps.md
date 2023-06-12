@@ -6,12 +6,12 @@ description: >
   Apps
 ---
 
-<https://github.com/ventoy/Ventoy/releases> - to install!!
-
 ```shell
 sudo dnf copr enable atim/bottom -y
 sudo dnf install bottom
 ```
+
+> <https://ostechnix.com/alacritty-terminal-emulator/>
 
 ```shell
 sudo dnf install alacritty

@@ -6,6 +6,8 @@ description: >
   Fedora Config for StarBook
 ---
 
+<https://help.gnome.org/users/gnome-help/stable/mouse-touchpad-click.html.en>
+
 Enabling "tap-to-click" feature for the touchpad at the gdm login screen for Fedora
 
 ```shell
