@@ -3,68 +3,68 @@ title: "Apps"
 date: 2023-06-03
 weight: 5
 description: >
-  Apps
+  Apps for Fedora
 ---
 
-```shell
-sudo dnf copr enable atim/bottom -y
-sudo dnf install bottom
-```
+## Media
 
-> <https://ostechnix.com/alacritty-terminal-emulator/>
+### mpv
 
-```shell
-sudo dnf install alacritty
-```
-
-```shell
-sudo dnf install celluloid
-```
+> - <https://mpv.io/>
+> - <https://github.com/mpv-player/mpv>
+> - <https://mpv.io/manual/stable/>
 
 ```shell
 sudo dnf install mpv
 ```
 
-config?
+`~/.config/mpv/mpv.conf`
 
-justworks
-
-```
+```cfg
 vo=gpu
 gpu-context=wayland
 hwdec=vaapi
 ```
 
+### Celluloid
+
+> - <https://celluloid-player.github.io/>
+> - <https://github.com/celluloid-player/celluloid>
+
+```shell
+sudo dnf install celluloid
+```
+
+### YT-DLP
+
+> <https://github.com/yt-dlp/yt-dlp>
+
 ```shell
 sudo dnf install yt-dlp
 ```
 
-* apps?
-  * Ferdium
-  * Books
-  * Ulauncher
-  * Blanket
-  * Krita
-  * Deja Dup Backups
-  * Blender
-  * Logseq
-  * Joplin
-  * Transmission
-  * yt-dlp
-  * darkman
-  * Celluloid
-  * Pika backup
-  * Amberol
-  * News flash
-  * Foliate
-  * Tangram
-  * VS Codium
-  * Blanket
-  * Easyeffects
-  * Gradience
-  * Money
-  * Khronos
+## Terminal
 
-* FlatPak:
-  * Dropbox
-  * Bitwarden
+### Bottom
+
+> <https://github.com/ClementTsang/bottom>
+
+```shell
+sudo dnf copr enable atim/bottom
+sudo dnf install bottom
+```
+
+### Alacritty
+
+> - <https://alacritty.org/>
+> - <https://github.com/alacritty/alacritty>
+> - <https://ostechnix.com/alacritty-terminal-emulator/>
+
+```shell
+sudo dnf install alacritty
+```
+
+## FlatPak
+
+- Dropbox
+- Bitwarden

@@ -1,9 +1,9 @@
 ---
-title: "Config"
+title: "Post Install Config"
 date: 2023-06-03
 weight: 3
 description: >
-  Config
+  Post Install Config for Fedora
 ---
 
 > - <https://www.hackingthehike.com/fedora38-guide/>

@@ -25,3 +25,9 @@ fwupdmgr update
 
 touchpad drivers?
 content/en/docs/Kubernetes/fedora-config.md
+
+## Enable Power Percentage
+
+```bash
+gsettings set org.gnome.desktop.interface show-battery-percentage true
+```

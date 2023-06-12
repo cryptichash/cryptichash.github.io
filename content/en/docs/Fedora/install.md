@@ -3,7 +3,7 @@ title: "Install"
 date: 2023-06-11
 weight: 2
 description: >
-  Install
+  Install for Fedora
 ---
 
 ## Create Bootable USB
