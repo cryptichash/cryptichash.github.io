@@ -19,7 +19,7 @@ sudo rpm -Uvh minikube-latest.x86_64.rpm
 
 > <https://minikube.sigs.k8s.io/docs/drivers/podman/#known-issues>
 
-- Podman requires passwordless running of sudo.
+Podman requires passwordless running of sudo.
 
 ```shell
 $ sudo visudo

@@ -11,7 +11,7 @@ description: >
 
 ## Faster Updates
 
-> - <https://dnf.readthedocs.io/en/latest/conf_ref.html#max-parallel-downloads-label>
+> <https://dnf.readthedocs.io/en/latest/conf_ref.html#max-parallel-downloads-label>
 
 ```shell
 sudo nano /etc/dnf/dnf.conf
@@ -41,7 +41,7 @@ sudo dnf groupupdate core
 
 ### Install Tainted
 
-> - <https://rpmfusion.org/FAQ>
+> <https://rpmfusion.org/FAQ>
 
 ```shell
 sudo dnf install rpmfusion-free-release-tainted
@@ -50,7 +50,7 @@ sudo dnf install rpmfusion-nonfree-release-tainted
 
 ## Flatpak
 
-> - <https://flatpak.org/setup/Fedora>
+> <https://flatpak.org/setup/Fedora>
 
 ```shell
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
@@ -69,7 +69,7 @@ sudo dnf install 'google-roboto*' 'mozilla-fira*' fira-code-fonts
 
 ### Microsoft TrueType Fonts
 
-> - <https://mscorefonts2.sourceforge.net/>
+> <https://mscorefonts2.sourceforge.net/>
 
 ```shell
 sudo dnf install curl cabextract xorg-x11-font-utils fontconfig
@@ -80,7 +80,7 @@ sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore
 
 ### Install Codecs
 
-> - <https://rpmfusion.org/Howto/Multimedia>
+> <https://rpmfusion.org/Howto/Multimedia>
 
 ```shell
 sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
@@ -96,7 +96,7 @@ sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
 
 ### Install Plugins
 
-> - <https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-playing-movies-and-music/>
+> <https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-playing-movies-and-music/>
 
 ```shell
 sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
@@ -106,7 +106,7 @@ sudo dnf group upgrade --with-optional Multimedia
 
 #### OpenH264
 
-> - <https://docs.fedoraproject.org/en-US/quick-docs/openh264/>
+> <https://docs.fedoraproject.org/en-US/quick-docs/openh264/>
 
 ##### Install OpenH264
 
